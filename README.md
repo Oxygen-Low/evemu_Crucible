@@ -6,7 +6,6 @@ Or pull and manually build the entire repository.
 
 
 
-
 ## Disclaimer
 ***EVEmu is an educational project.***
  This means, our primary interest is to learn and teach us
