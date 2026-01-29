@@ -1,4 +1,4 @@
-# [EVEmu](https://evemu.dev) - An EVE Online Emulator
+# EVEmu - An EVE Online Emulator
 Run docker pull ghcr.io/oxygen-lows-organization/eve-mu:latest
 Or pull and manually build the entire repository.
 
