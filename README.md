@@ -1,54 +1,11 @@
 # [EVEmu](https://evemu.dev) - An EVE Online Emulator
+Run docker pull ghcr.io/oxygen-lows-organization/eve-mu:latest
+Or pull and manually build the entire repository.
 
-<p align="center">
-	<a href="https://github.com/EvEmu-Project/evemu_Crucible/pulse"><img src="https://img.shields.io/tokei/lines/github/EvEmu-Project/evemu_Crucible" /></a>
-	<a href="https://www.codefactor.io/repository/github/evemu-project/evemu_crucible"><img src="https://img.shields.io/codefactor/grade/github/evemu-project/evemu_crucible" /></a>
-	<a href="https://github.com/EvEmu-Project/evemu_Crucible/graphs/commit-activity"><img src="https://img.shields.io/github/commit-activity/w/EvEmu-Project/evemu_Crucible" /></a>
-	<a href="https://github.com/EvEmu-Project/evemu_Crucible/graphs/contributors"><img src="https://img.shields.io/github/contributors/EvEmu-Project/evemu_Crucible" /></a>
-	<a href="https://discord.gg/fTfAREYxbz"><img src="https://img.shields.io/discord/165291219205881856" /></a>
-	<a href="https://github.com/EvEmu-Project/evemu_Crucible/issues"><img src="https://img.shields.io/github/issues-raw/EvEmu-Project/evemu_Crucible" /></a>
-</p>
 
-## Introduction
-EVEmu is a work-in-progress server emulator for the space MMO EVE Online. This is an educational project. Please see the disclaimer below for details.
 
-## ChangeLog
-[ChangeLog](doc/ChangeLog.md)
 
-## EVEmu Software Development Kit ##
-The EVEmu project maintains a set of pre-configured tools and environments that help with setting up a new development station. [Check them out](https://github.com/EvEmu-Project/EvEmu_SDK)
 
-Additional details on the SDK are [available on the wiki](https://wiki.evemu.dev/wiki/EVEmu-SDK).
-
-## `docker compose` Quickstart
- EVEmu can be run with Docker Compose:
-```
-git clone https://github.com/EvEmu-Project/evemu_Crucible.git
-cd evemu_Crucible
-docker compose up -d
-```
-**NOTE:** Add `--build` to the `docker compose up` command to force a rebuild of the source. This is useful when making code changes.
-
-~~By changing `build:` to `image:` in `docker-compose.yml`, you can use the prebuilt images available.~~
-
-Configuration files are stored in `./config/`. These can be modified and will persist across restarts.
-
-To shutdown EVEmu:
-```
-docker compose stop
-```
-
-## Building with Docker
- EVEmu can now be built with docker to ensure a consistent dependency base. This can be done by executing `docker compose build` in the root directory.
- It is highly suggested to build EVEmu from the latest release available on the releases page.
-
- [Releases](https://github.com/EvEmu-Project/evemu_Crucible/releases)
-
-## Accounts
- Accounts will be created automatically when logging in with the client if the username is not already taken.
-
-## Communication / Contact
- Check out the new [EVEmu Project website](https://evemu.dev), our [Discord](https://discord.gg/fTfAREYxbz) and [Forums](https://forums.evemu.dev)!
 
 ## Disclaimer
 ***EVEmu is an educational project.***
